@@ -55,6 +55,7 @@ input_tensor = text_conversion(text)
 
 prediction = model.predict(input_tensor)
 # prediction = prediction[1:]
+print(text)
 print(prediction)
 
 # Displaying the prediction
