@@ -55,6 +55,7 @@ input_tensor = text_conversion(text)
 
 prediction = model.predict(input_tensor)
 # prediction = prediction[1:]
+print("\n\n")
 print(text)
 print(prediction)
 
@@ -120,3 +121,4 @@ if submit_button:
         st.warning("Please enter a comment to analyze.")
 
 print(pred_classes)
+print("\n\n")
