@@ -75,7 +75,7 @@ if submit_button:
     st.subheader('Analysis')
     if comment_text:
         def check():
-            if (pred_classes[0] == 'insult' and prediction[0][largest_indices][0] < 0.3):
+            if (pred_classes[0] == 'insult'):
                 if pred_classes[1] == 'obscene':
                     return True
             else:
