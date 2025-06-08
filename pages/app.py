@@ -118,3 +118,5 @@ if submit_button:
             )
     else:
         st.warning("Please enter a comment to analyze.")
+
+print(pred_classes)
