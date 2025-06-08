@@ -98,6 +98,8 @@ if submit_button:
             </div>
             """, unsafe_allow_html=True
             )
+
+            print('Non Toxic', '\n\n')
         else:
             print(check)
             st.markdown(
@@ -117,8 +119,9 @@ if submit_button:
             </div>
             """, unsafe_allow_html=True
             )
+            
+            print(pred_classes)
+            print("\n\n")
     else:
         st.warning("Please enter a comment to analyze.")
 
-print(pred_classes)
-print("\n\n")
