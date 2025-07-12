@@ -1,1 +1,3 @@
-A Text analyzer Application, to analyze the toxicity of the texts.
+# SNG Text Analyzer
+
+An application to classify the toxic comments. 
